@@ -1,0 +1,40 @@
+body, html {
+
+}
+.topContainer {
+	height: 500px;
+	border: 1px solid #999;
+	background-image: url('../img/background_image.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.genHeading {
+text-align: center;
+	color: #BF3F2F;
+	font-size: 3.1em;
+}
+.hintText {
+	color: #fff;
+	text-align: center;
+	font-size: 2.0em;
+
+}
+.entryFormContainer {
+
+	margin-top: 20px;
+}
+.inputFields {
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+	border-radius: 10px;
+	border-color: #BFAF4F;
+	font-family: cursive;
+
+}
+.journalEntries {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}

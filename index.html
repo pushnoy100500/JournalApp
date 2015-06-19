@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Journal</title>
+		<link rel="stylesheet" href="styles/styles.css">
+
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+
+		<script src="js/script.js" type="text/javascript"></script>
+		<!--<script src="js/bootstrap.min.js" type="text/javascript"></script>-->
+		
+
+		<link rel="stylesheet" href="styles/bootstrap.min.css">
+		<link href='http://fonts.googleapis.com/css?family=IM+Fell+English:400,400italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles/styles.css">
+	</head>
+	<body>
+	<header class="topContainer">
+		<div id="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h1 class="genHeading">This is my super life journal</h1>
+				<p class="hintText">Feel free to add an entry</p>
+			</div>
+		</div>
+		<div id="row">
+			<div class="col-md-6 col-md-offset-3 entryFormContainer">
+				<form action="" id="journalForm">
+					
+						<input type="text" class="inputFields" placeholder="Title" id="titleName" name="title">
+						<input type="text" class="inputFields" placeholder="Author" id="authorName" name="author">
+						<textarea name="content" placeholder="Content" class="inputFields" id="entryContent" cols="50" rows="4"></textarea>
+						<input type="text" class="inputFields" placeholder="tag/s" id="tags">
+						<button type="submit" class="inputFields" id="addEntry">Add Entry</button>
+				</form>
+			</div>
+		</div>
+	</header>
+	<section class="entries" id="displayJournal">
+		<article class="journalEntries">
+			
+		</article>
+	</section>	
+	</body>
+</html>
